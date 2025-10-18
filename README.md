@@ -77,7 +77,7 @@ graph TD
     L --> G;
     G --> M[Perplexity<br>Feedback Loop];
     M --> B;
-```mermaid
+```
 
 Next steps
 Clone this content and save it as a Markdown (.md) file in the project's GitHub repository.
