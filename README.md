@@ -70,6 +70,8 @@ graph TD
 ```
 ---
 
+[Rethinking Software Development: How AI Driven Development Life Cycle (AI-DLC) is Going to Transform the Way We Build Software](https://medium.com/@msharsha/rethinking-software-development-how-ai-driven-development-life-cycle-ai-dlc-is-going-to-1f6a315f94c8)
+
 ### Flow with Processes and Tools
 
 ```mermaid
@@ -128,9 +130,11 @@ graph LR
     L --- F_T
     M --- N
     N --- G_T
-'''
+```
+---
 
-## Project Plan: The AI-DLC Workflow
+
+### Project Plan: The AI-DLC Workflow
 
 ### Phase 1: Planning and Design (Inception)
 
