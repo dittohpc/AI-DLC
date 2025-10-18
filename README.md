@@ -39,19 +39,35 @@ The **AI-Driven Development Lifecycle (AI-DLC)** is a modern software developmen
 
 ```mermaid
 graph TD
-    A[Inception: Define Vision & Goals] --> B(AI Assists: Research, Ideation, Spec Generation);
-    B --> C[Design: Architecture & UX];
-    C --> D(AI Assists: Prototyping, Component Design, Task Breakdown);
-    D --> E[Implementation: Code Development];
-    E --> F(AI Assists: Code Generation, Refactoring, Testing);
+    A[Inception<br> Define Vision & Goals] --> B(AI Assists<br> Research, Ideation, Spec Generation);
+    B --> C[Design<br> Architecture & UX];
+    C --> D(AI Assists<br> Prototyping, Component Design, Task Breakdown);
+    D --> E[Implementation<br> Code Development];
+    E --> F(AI Assists<br> Code Generation, Refactoring, Testing);
     F --> G[Testing & Quality Assurance];
-    G --> H(AI Assists: Test Case Generation, Defect Detection, Performance Analysis);
-    H --> I[Deployment: Release Management];
-    I --> J(AI Assists: Automated Deployment, Configuration, Infrastructure-as-Code);
-    J --> K[Operations: Monitoring & Maintenance];
-    K --> L(AI Assists: Anomaly Detection, Log Analysis, Predictive Maintenance, User Feedback Analysis);
+    G --> H(AI Assists<br> Test Case Generation, Defect Detection, Performance Analysis);
+    H --> I[Deployment<br> Release Management];
+    I --> J(AI Assists<br> Automated Deployment, Configuration, Infrastructure-as-Code);
+    J --> K[Operations<br> Monitoring & Maintenance];
+    K --> L(AI Assists<br> Anomaly Detection, Log Analysis, Predictive Maintenance, User Feedback Analysis);
     L --> M{Continuous Feedback & Learning};
     M --> A;
+
+    %% Styles for individual nodes (colored boxes)
+    style A fill:#D4EDDA, stroke:#28A745, color:#212529 %% Light Green
+    style B fill:#CDEFFB, stroke:#17A2B8, color:#212529 %% Light Cyan
+    style C fill:#D4EDDA, stroke:#28A745, color:#212529 %% Light Green
+    style D fill:#CDEFFB, stroke:#17A2B8, color:#212529 %% Light Cyan
+    style E fill:#D4EDDA, stroke:#28A745, color:#212529 %% Light Green
+    style F fill:#CDEFFB, stroke:#17A2B8, color:#212529 %% Light Cyan
+    style G fill:#D4EDDA, stroke:#28A745, color:#212529 %% Light Green
+    style H fill:#CDEFFB, stroke:#17A2B8, color:#212529 %% Light Cyan
+    style I fill:#D4EDDA, stroke:#28A745, color:#212529 %% Light Green
+    style J fill:#CDEFFB, stroke:#17A2B8, color:#212529 %% Light Cyan
+    style K fill:#D4EDDA, stroke:#28A745, color:#212529 %% Light Green
+    style L fill:#CDEFFB, stroke:#17A2B8, color:#212529 %% Light Cyan
+    style M fill:#FFF3CD, stroke:#FFC107, color:#212529 %% Light Yellow 
+    
 ```
 
 ## Project Plan: The AI-DLC Workflow
