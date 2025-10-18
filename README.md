@@ -61,7 +61,7 @@ Track in Notion: Use your Notion database to update the status of work items to 
 
 Process flow visual
 
-mermaid
+```mermaid
 graph TD
     A[Perplexity Research] --> B{Claude/Claude Code<br>Design & Planning};
     B --> C[Notion<br>Project Tracking];
@@ -78,6 +78,7 @@ graph TD
     G --> M[Perplexity<br>Feedback Loop];
     M --> B;
 Use code with caution.
+```mermaid
 
 Next steps
 Clone this content and save it as a Markdown (.md) file in the project's GitHub repository.
