@@ -67,8 +67,68 @@ graph TD
     style K fill:#D4EDDA, stroke:#28A745, color:#212529 %% Light Green
     style L fill:#CDEFFB, stroke:#17A2B8, color:#212529 %% Light Cyan
     style M fill:#FFF3CD, stroke:#FFC107, color:#212529 %% Light Yellow 
-    
 ```
+---
+
+### Flow with Processes and Tools
+
+```mermaid
+graph LR
+
+    %% 1. PHASE Column (Blue)
+    subgraph Phases
+        A[Inception]
+        C[Design]
+        E[Implementation]
+        G[Testing]
+        I[Deployment]
+        K[Operations]
+        M{Feedback Loop}
+    end
+
+    %% 2. ACTION Column (Green/Cyan)
+    subgraph Actions
+        B[Define Vision; Architecture]
+        D[Prototyping; Task Breakdown]
+        F[Code Generation Refactoring]
+        H[Test Case GenerationDefect Detection]
+        J[Automated DeploymentConfig]
+        L[MonitoringLog Analysis]
+        N[Iterate]
+    end
+
+    %% 3. TOOLS Column (Gray)
+    subgraph Tools
+        A_T[Perplexity, Notion]
+        B_T[Claude, Cursor]
+        C_T[Claude Code, GitHub]
+        D_T[Vercel, Tally.so]
+        E_T[Hugging Face, Postgres]
+        F_T[Vercel Logs, Datadog]
+        G_T[All Tools]
+    end
+
+    %% Styles for Columns
+    style Phases fill:#E6F0FF, stroke:#007BFF, stroke-width:2px
+    style Actions fill:#D4EDDA, stroke:#28A745, stroke-width:2px
+    style Tools fill:#F8F9FA, stroke:#6C757D, stroke-width:2px
+
+    %% Invisible Links to Force Vertical Alignment
+    A --- B
+    B --- A_T
+    C --- D
+    D --- B_T
+    E --- F
+    F --- C_T
+    G --- H
+    H --- D_T
+    I --- J
+    J --- E_T
+    K --- L
+    L --- F_T
+    M --- N
+    N --- G_T
+'''
 
 ## Project Plan: The AI-DLC Workflow
 
