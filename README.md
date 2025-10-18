@@ -77,7 +77,6 @@ graph TD
     L --> G;
     G --> M[Perplexity<br>Feedback Loop];
     M --> B;
-Use code with caution.
 ```mermaid
 
 Next steps
