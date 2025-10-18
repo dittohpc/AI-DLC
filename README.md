@@ -2,7 +2,7 @@
 The AI-DLC web app project
 This document outlines the plan for building a mobile-friendly, AI-powered web app. The project will fully embrace the AI-Driven Development Lifecycle (AI-DLC) methodology, using a suite of AI tools to enhance every stage of the process, from inception to operations. Documentation, including this file and detailed tracking in Notion, will be a central part of the workflow.
 
-Project goals
+##Project goals
 Methodology: Adopt a modern AI-centric approach to software development (AI-DLC).
 Documentation: Maintain a comprehensive record of the project's evolution, including AI-driven decisions.
 Technology Stack: Use a flexible, non-vendor-locked stack of tools for development, hosting, and AI services.
