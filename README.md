@@ -14,7 +14,7 @@ This document outlines the plan for building a mobile-friendly, AI-powered web a
 | Category | Tools |
 | :--- | :--- |
 | **Planning and Design** | Perplexity, Claude, Claude Code, Notion |
-| **Development** | Cursor, Claude Code, GitHub |
+| **Development** | Cursor, Claude Code, GitHub, Python|
 | **AI Integration** | Hugging Face Serverless Inference API |
 | **Hosting** | Vercel, Vercel Postgres (or PlanetScale) |
 | **User Input** | Tally.so |
@@ -97,6 +97,8 @@ graph TD
     L --> G;
     G --> M[Perplexity<br>Feedback Loop];
     M --> B;
+```
+
 Configure access to the AI tools (Claude, Perplexity, Cursor) and development environments (Vercel, GitHub).
 Follow the AI-DLC plan, using the tools to guide each phase of development.
 
