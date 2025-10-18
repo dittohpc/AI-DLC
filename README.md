@@ -35,6 +35,25 @@ The **AI-Driven Development Lifecycle (AI-DLC)** is a modern software developmen
 
 ---
 
+### General flow of the process
+
+```mermaid
+graph TD
+    A[Inception: Define Vision & Goals] --> B(AI Assists: Research, Ideation, Spec Generation);
+    B --> C[Design: Architecture & UX];
+    C --> D(AI Assists: Prototyping, Component Design, Task Breakdown);
+    D --> E[Implementation: Code Development];
+    E --> F(AI Assists: Code Generation, Refactoring, Testing);
+    F --> G[Testing & Quality Assurance];
+    G --> H(AI Assists: Test Case Generation, Defect Detection, Performance Analysis);
+    H --> I[Deployment: Release Management];
+    I --> J(AI Assists: Automated Deployment, Configuration, Infrastructure-as-Code);
+    J --> K[Operations: Monitoring & Maintenance];
+    K --> L(AI Assists: Anomaly Detection, Log Analysis, Predictive Maintenance, User Feedback Analysis);
+    L --> M{Continuous Feedback & Learning};
+    M --> A;
+```
+
 ## Project Plan: The AI-DLC Workflow
 
 ### Phase 1: Planning and Design (Inception)
